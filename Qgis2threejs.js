@@ -564,8 +564,7 @@ limitations:
   };
 
   app.showInfo = function () {
-    Q3D.$("urlbox").value = app.currentViewUrl();
-    Q3D.$("usage").innerHTML = app.help();
+
     app.popup.show();
   };
 
