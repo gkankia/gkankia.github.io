@@ -23,7 +23,7 @@ body {
   width: 24px;
   height: 24px;
   text-align: center;
-  font-family: arial;
+  font-family: serif;
   font-weight: bold;
   font-size: 24px;
   cursor: pointer;
@@ -212,5 +212,5 @@ table.attrs tr td:first-child {
 .print-label {
   /* these 2 properties are copied to canvas 2D context in renderLabels function of Qgis2threejs.js */
   color: black;
-  font: normal medium arial;
+  font: arial;
 }
